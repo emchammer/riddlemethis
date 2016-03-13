@@ -8,3 +8,7 @@ def riddle_two(request):
 
 def riddle_three(request):
     return render(request, 'riddle/riddle_three.html', {})
+
+def riddle_four(request):
+    return render(request, 'riddle/riddle_four.html', {})
+
