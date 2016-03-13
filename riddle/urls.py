@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.riddle_one, name = 'riddle_one'),
-    url(r'^8$', views.riddle_two,name = 'riddle_two'),
+    url(r'^key$', views.riddle_two,name = 'riddle_two'),
+    url(r'^88$', views.riddle_three, name = 'riddle_three'),
 ]

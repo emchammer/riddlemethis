@@ -5,3 +5,6 @@ def riddle_one(request):
 
 def riddle_two(request):
     return render(request, 'riddle/riddle_two.html', {})
+
+def riddle_three(request):
+    return render(request, 'riddle/riddle_three.html', {})
