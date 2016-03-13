@@ -3,6 +3,10 @@ h1 {
 	font-family: 'Playfair Display', serif;
 }
 
+h3 {
+	font-family: 'Playfair Display', serif;
+}
+
 body {
 padding-left: 60px;
 padding-right: 60px;
@@ -12,7 +16,7 @@ background-size: contain;
 
 
 .boxed {
-	border: 2px solid #000000 ;
+	border: 5px solid #757575 ;
 	max-width: 75%;
 	background-color: #c9c9c9;
 }
