@@ -1,9 +1,17 @@
+{% load staticfiles %}
 <html>
 	<head>
 		<title>Riddle Me This</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="{% static 'css/riddle.css' %}"
 	</head>
 	<body>
-		<h1>Katie Smells</h1>
-		<h2>#TeamTroyBolton</h2>
+		<center>
+		<img src="{% static "images/Castl.png" %}" alt="Logo"> 
+		<div class="boxed">
+			<h1> Let the riddles begin </h1>
+			Lets be inventive then guys
+		</div>
 	</body>
 </html>
