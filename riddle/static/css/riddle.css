@@ -12,10 +12,11 @@ h2 {
 }
 
 body {
-padding-left: 60px;
-padding-right: 60px;
-background-size: contain;
-font-family: 'Droid Serif', serif;
+	padding-left: 60px;
+	padding-right: 60px;
+	background-size: contain;
+	font-family: 'Droid Serif', serif;
+	color: #000000
 }
 
 
