@@ -1,20 +1,21 @@
 h1 {
 	color: #000000;
-	font-family: 'Niconne', cursive;
+	font-family: 'Trade Winds', cursive;
 }
 
 h3 {
-	font-family: 'Niconne', cursive;
+	font-family: 'Trade Winds', cursive;
 }
 h2 {
 	color: #000000;
-	font-family: 'Niconne', cursive;
+	font-family: 'Trade Winds', cursive;
 }
 
 body {
 padding-left: 60px;
 padding-right: 60px;
 background-size: contain;
+font-family: 'Droid Serif', serif;
 }
 
 
@@ -23,6 +24,7 @@ background-size: contain;
 	border: 5px solid #757575 ;
 	max-width: 75%;
 	background-color: #c9c9c9;
+	padding: 0px 20px 0px 20px
 }
 
 

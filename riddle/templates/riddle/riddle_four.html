@@ -1,11 +1,12 @@
 {% load staticfiles %}
 <html>
 	<head>
-		<title>Riddle Me This</title>
+		<<title>Riddle Me This</title>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="{% static 'css/riddle.css' %}">
-		<link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Trade+Winds' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
 	</head>
 	<body background={% static "images/background.png" %}>
 		<center>
@@ -14,13 +15,13 @@
 		</a> 
 
 		<div class="boxed">
-			<h1> Now that one was easy wan't it? </h1>
-			<h3> A little more feindish this time! </h3>
-			<h2> Clunk. The steel door falls open.
+			<h1> Now that one was easy wasn't it? </h1>
+			Clunk. The steel door falls open.
 			There's no lights in this room,
 			just a faint glow from a lit up panel by the door.
-			You walk up to it, it reads:</h2>
-			<img src="{% static "images/riddlethree.png" %}" alt="riddlethree">
+			You walk up to it, it reads:
+			<br><img src="{% static "images/riddlethree.png" %}" alt="riddlethree" style = "width:40%;height:auto">
+			<h2> What's next? </h2>
 		</div>
 	</body>
 </html>
