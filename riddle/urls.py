@@ -7,4 +7,5 @@ urlpatterns = [
     url(r'^88$', views.riddle_three, name = 'riddle_three'),
     url(r'^infinity$', views.riddle_four, name='riddle_four'),
     url(r'111312211f$', views.riddle_five, name='riddle_five'),
+    url(r'decaf', views.riddle_six, name='riddle_six'),
 ]

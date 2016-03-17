@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'by&d*tp)zmxsdym963%1540$a$+3r#xleg42$-m&g8lfefykz4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['emchammer.pythonanywhere.com']
 

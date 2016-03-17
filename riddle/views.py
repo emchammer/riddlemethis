@@ -15,3 +15,6 @@ def riddle_four(request):
 def riddle_five(request):
     return render(request, 'riddle/riddle_five.html', {})
 
+def riddle_six(request):
+    return render(request, 'riddle/riddle_six.html', {})
+
